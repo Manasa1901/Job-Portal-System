@@ -63,6 +63,6 @@ The project is divided into modules:
 - **Job Module** → Handles job postings and applications.  
 - **Application Module** → Manages job applications and status tracking.  
 - **Database Module** → Handles MySQL database operations via JDBC.  
-- **UI Module (Optional)** → Handles console, Swing, or JavaFX interactions.
+- **UI Module (Optional)** → Handles JavaFX interactions.
 
 
