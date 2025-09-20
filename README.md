@@ -1,69 +1,72 @@
+# 🧑‍💼 Job Portal System
 
-# 💼 Job-Portal-System
-
-The **Job Portal System** is a Java-based application integrated with a MySQL database to simplify and automate the hiring process. It connects job seekers and employers through a centralized platform, enabling profile management, job posting, job applications, and status tracking. This system ensures transparency, efficiency, and better communication between applicants and recruiters.
-
----
-
-## 📝 Problem Statement
-
-Finding suitable jobs and hiring qualified candidates is often a time-consuming and inefficient process. Job seekers struggle to access relevant opportunities and track applications, while employers face challenges in managing job postings and filtering candidates. Manual methods lead to delays, miscommunication, and lack of transparency.
-
-**Solution:**  
-This system provides a centralized digital platform where job seekers can apply for jobs and employers can post openings, review applicants, and manage the recruitment process seamlessly using Java and MySQL.
+## 📌 Project Description
+The **Job Portal System** is a Java-based application that connects **job seekers** and **employers**.  
+It allows employers to post job opportunities and job seekers to apply for them.  
+The project demonstrates the use of **Object-Oriented Programming (OOP)** concepts and can be extended with **database integration** for permanent storage.
 
 ---
 
-## 🎯 Target Users
-- 👨‍🎓 **Job Seekers** – who are looking for job opportunities and want to apply online.  
-- 🏢 **Employers/Companies** – who want to post jobs and hire suitable candidates.  
-- 🛡️ **Administrators** – who manage and monitor platform usage and data.  
+## 🚩 Problem Statement
+Finding suitable jobs and hiring qualified candidates is often a time-consuming and inefficient process.  
+Job seekers struggle to access relevant opportunities and track applications, while employers face challenges in managing postings and filtering candidates.  
+The proposed **Job Portal System** provides a simple, interactive platform to streamline the recruitment process for both parties.
 
 ---
 
-# 🛠️ Tech Stack
+## 🎯 Objectives
+- Provide a centralized platform for employers and job seekers.  
+- Implement job postings, job applications, and basic search features.  
+- Apply OOP concepts such as **Encapsulation, Inheritance, Polymorphism, and Abstraction**.  
+- Prepare a scalable system that can later integrate with **databases** and **web technologies**.  
 
-- **Programming Language:** Java (OOP concepts)  
-- **Database:** MySQL (via JDBC)  
-- **Back-End:** Java
-- **Front-End (Optional):** JavaFX / Web (HTML, CSS, JS)  
+---
+
+## ✨ Features Implemented (Partial Prototype)
+- Register a Job Seeker  
+- Register an Employer  
+- Post Jobs by Employers  
+- Apply for Jobs by Job Seekers  
+- View All Jobs Posted  
+- Console-based menu-driven prototype  
 
 ---
 
-## 📌 Key Features
-- 👤 **Job seeker registration and profile management**  
-- 📄 **Resume upload and application submission**  
-- 🔍 **Job search and filtering by skills, location, type**  
-- 📝 **Employer job posting and management**  
-- ✅ **Application status tracking (Applied, Shortlisted, Hired, Rejected)**  
-- 💬 **Admin control for user/job monitoring**  
+## 🛠️ Tech Stack
+- **Language**: Java  
+- **IDE**: VS Code / IntelliJ / Eclipse (any Java IDE)  
+- **Version Control**: Git + GitHub  
+- **Database**: (Planned - MySQL with JDBC for final version)  
 
 ---
-# 🎯 OOP Concepts Applied
 
-**Encapsulation**  
-All user details (JobSeeker, Employer, Admin) and job data are enclosed within dedicated classes.  
-Internal data is hidden, exposing only necessary methods to interact with them.
+## 🧩 OOP Concepts Applied
+- **Encapsulation** → Data members are private, accessed via getters/setters.  
+- **Inheritance** → Common entities can be extended (future scope).  
+- **Polymorphism** → Methods can be overridden for specialized behavior.  
+- **Abstraction** → Core functionalities separated into classes.  
 
-**Abstraction**  
-Abstract classes and interfaces define contracts for operations like job posting, job searching, and application submission.  
-Users don’t need to know the underlying implementation details.
+---
 
-**Inheritance**  
-Specialized classes like `JobSeeker`, `Employer`, and `Admin` extend a common `User` base class.  
-Reduces redundancy and improves code reusability.
+## 📊 UML Diagrams
 
-**Polymorphism**  
-Methods such as `applyForJob()` or `postJob()` can behave differently depending on the object type.  
-Supports both compile-time (method overloading) and run-time (method overriding) polymorphism.
+### 1. Class Diagram
+![Class Diagram](diagrams/class-diagram.png)
 
-**Modularity**  
-The project is divided into modules:  
-- **User Module** → Manages JobSeeker, Employer, and Admin profiles.  
-- **Job Module** → Handles job postings and applications.  
-- **Application Module** → Manages job applications and status tracking.  
-- **Database Module** → Handles MySQL database operations via JDBC.  
-- **UI Module (Optional)** → Handles JavaFX interactions.
+### 2. Use Case Diagram
+![Use Case Diagram](diagrams/usecase-diagram.png)
+
+👉 *(Create these using [draw.io](https://app.diagrams.net/), save them as PNG, and upload into a `diagrams/` folder in your repo. Then link as shown above.)*
+
+---
+
+## 🚀 Future Enhancements
+- Add **database support** (MySQL + JDBC) for storing users, jobs, and applications.  
+- Implement **login system** for Job Seekers and Employers.  
+- Add **job search by skills or location**.  
+- Provide **GUI or web interface** instead of console.  
+
+---
 
 # 📊 Class Diagram
 
