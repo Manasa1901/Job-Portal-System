@@ -48,18 +48,6 @@ The proposed **Job Portal System** provides a simple, interactive platform to st
 
 ---
 
-## 📊 UML Diagrams
-
-### 1. Class Diagram
-![Class Diagram](diagrams/class-diagram.png)
-
-### 2. Use Case Diagram
-![Use Case Diagram](diagrams/usecase-diagram.png)
-
-👉 *(Create these using [draw.io](https://app.diagrams.net/), save them as PNG, and upload into a `diagrams/` folder in your repo. Then link as shown above.)*
-
----
-
 ## 🚀 Future Enhancements
 - Add **database support** (MySQL + JDBC) for storing users, jobs, and applications.  
 - Implement **login system** for Job Seekers and Employers.  
